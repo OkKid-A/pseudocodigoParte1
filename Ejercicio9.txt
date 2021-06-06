@@ -1,0 +1,8 @@
+Proceso Intercambio
+	Leer palabraA
+	leer palabraB
+	palabraC <- palabraA
+	palabraA <- palabraB
+	palabraB <- palabraC
+	Escribir "La primera palabra ahora es ",palabraA," y la segunda es ",palabraB
+FinProceso
