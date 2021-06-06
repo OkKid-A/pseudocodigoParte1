@@ -1,0 +1,5 @@
+Proceso Capital
+	Leer pais
+	Leer capital
+	Escribir capital + " es la capital de " + pais
+FinProceso
