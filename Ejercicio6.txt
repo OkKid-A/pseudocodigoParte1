@@ -1,0 +1,6 @@
+Proceso Sobreporcentaje
+	aleatorio <- aleatorio(0,200)
+	Escribir "El número aleatorio es ",aleatorio
+	resultado <- ((0.3*aleatorio)+aleatorio)
+	Escribir aleatorio," aumentado en 30% es igual a ",resultado
+FinProceso
