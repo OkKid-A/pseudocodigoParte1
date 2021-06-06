@@ -1,0 +1,8 @@
+Proceso Conversión
+	Leer cm
+	y <- 0.0109361*cm
+	m <- 0.01*cm
+	pies <- 0.0328084*cm
+	I <- 0.393791*cm
+	Escribir cm,"cm equivalen a ",y," yardas, ",m," metros, ",pies," pies y ",I," pulgadas."
+FinProceso
