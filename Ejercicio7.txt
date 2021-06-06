@@ -1,0 +1,6 @@
+Proceso Subporcentaje
+	random <- aleatorio(10,50)
+	Escribir "El número escogido es ",random
+	total <- (random - (random*0.15))
+	Escribir random," reducido en 15% es igual a ",total
+FinProceso
