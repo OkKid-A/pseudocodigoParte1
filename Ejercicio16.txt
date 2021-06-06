@@ -1,0 +1,18 @@
+Proceso MayorYMenor
+	Leer num1
+	Leer num2
+	Leer num3
+	Si (num1 > num2) Entonces
+		Si (num1 > num3) Entonces
+			Escribir "El número mayor es ",num1
+		Sino 
+			Escribir "El número mayor es ",num3
+		Fin Si
+	Sino
+	 	Si (num2 > num3) Entonces
+	 		Escribir "El número mayor es ",num2
+	 	Sino 
+	 		Escribir "El número mayor es ",num3
+	 	Fin Si
+	 Fin Si
+FinProceso
