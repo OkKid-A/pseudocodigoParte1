@@ -1,0 +1,19 @@
+Proceso Capícua 
+	Leer num1
+	Si (num1 >= -99999) & (num1 <= -10000) Entonces
+		num1 <- num1*(-1)
+	Fin Si
+	Si (num1 <= 99999) & (num1 >= 10000) Entonces
+		d1 <- substr(num1,0,1)
+		d2 <- substr(num1,1,1)
+		d4 <- substr(num1,3,1)
+		d5 <- substr(num1,4,1)
+		Si (d1 == d5) & (d2 == d4) Entonces
+			Escribir "Es capícua"
+		Sino
+			Escribir "No es capicua"
+		Fin Si
+	Sino
+		Escribir "Ingrese un número de cinco dígitos"
+	Fin Si
+FinProceso
