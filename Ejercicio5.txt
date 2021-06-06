@@ -1,0 +1,5 @@
+Proceso Siguiente
+	Leer num1
+	resultado <- num1+1
+	Escribir "El número siguiente de ",num1," es ",resultado
+FinSiguiente
