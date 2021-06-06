@@ -1,0 +1,10 @@
+Proceso Nulo
+	Leer num1
+	Si (num1 == 0) Entonces
+		Escribir "El número ingresado es nulo"
+	Sino Si (num1 > 0) Entonces
+		Escribir "El número ingresado es positivo"
+	Sino
+		Escribir "El número ingresado es negativo"
+	Fin Si
+FinProceso
