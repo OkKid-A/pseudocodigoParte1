@@ -1,0 +1,5 @@
+Proceso Temperaturas
+	Leer tempC
+	tempF <- (tempC*(9/50))+32)
+	Escribir tempC,"°C equivale a ",tempF,"°F."
+FinProceso
