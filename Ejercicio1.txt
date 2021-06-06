@@ -1,0 +1,6 @@
+Proceso suma
+	Leer num1
+	Leer num2
+	resultado = num1 + num2
+	Escribir "La suma de " num1 " + " num2 " = " resultado
+FinProceso
