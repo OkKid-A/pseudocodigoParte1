@@ -1,0 +1,11 @@
+Proceso Volumen
+	PI <- 3.1416
+	Leer radio
+	Leer altura
+	Si (radio > 0) & (altura > 0) Entonces
+		volumen <- PI*radio*radio*altura
+		Escribir "El volumen del cilindro es ",volumen
+	Sino
+		Escribir "El radio y la altura deben ser positivos"
+	Fin Si
+FinProceso
