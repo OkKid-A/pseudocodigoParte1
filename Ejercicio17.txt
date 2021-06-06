@@ -1,0 +1,18 @@
+Proceso Triángulo
+	Leer lado1
+	Leer lado2
+	Leer lado3
+	Si (lado1 == lado2) Entonces
+		Si (lado2 == lado3) Entonces
+			Escribir "El triángulo es equilátero"
+		Sino 
+			Escribir "El triángulo es isosceles"
+		Fin Si
+	Sino 
+		Si (lado1 == lado3) Entonces
+			Escribir "El triángulo es isosceles"
+		Sino
+			Escribir "El triángulo es escaleno"
+		Fin Si
+	Fin Si
+FinProceso
