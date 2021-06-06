@@ -1,0 +1,10 @@
+Proceso Mod
+	Leer num1
+	Leer num2
+	residuo <- num1%num2
+	Si (residuo == 0) Entonces
+		Escribir "Es divisible"
+	Sino
+		Escribir "No es perfectamente divisible"
+	Fin Si
+FinProceso
