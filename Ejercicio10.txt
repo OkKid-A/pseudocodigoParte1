@@ -1,0 +1,7 @@
+Proceso AreayPerimetro
+	Leer base
+	Leer altura
+	p <- (2*base) + (2*altura)
+	a <- base*altura
+	Escribir "El área del rectangulo es ",a," y su perimetro es ",p
+	FinProceso
