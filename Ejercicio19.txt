@@ -1,0 +1,9 @@
+Proceso Divisible
+	N <- aleatorio(0,1000)
+	Escribir "El número escogido es ",N
+	Si (N % 5 == 0) & (N < 26) & (N > 0) Entonces
+		Escribir "Correcto"
+	Sino 
+		Escribir "Incorrecto"
+	Fin Si
+FinProceso
