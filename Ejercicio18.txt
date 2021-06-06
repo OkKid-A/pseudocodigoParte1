@@ -1,0 +1,30 @@
+Proceso Digitos
+	d4 <- 0
+	d3 <- 0
+	d2 <- 0
+	d1 <- 0
+	Leer num1
+	Si (num1 >= -9999) & (num1 <= 0) Entonces
+		num1 <- num1*(-1)
+	Fin Si
+	Si (num1 <= 9999) & (num1 >= 0) Entonces
+		Si (num1 >= 1000) Entonces
+		d4 <- substr(num1,3,1)
+		Escribir "d4 = ",d4
+		Fin Si
+		Si (num1 >= 100) Entonces
+		d3 <- substr(num1,2,1)
+		Escribir "d3 = ",d3
+		Fin Si
+		Si (num1 >= 10) Entonces
+		d2 <- substr(num1,1,1)
+		Escribir "d2 = ",d2
+		Fin Si
+		d1 <- substr(num1,0,1)
+		Escribi "d1 = ",d1
+		suma <- d1+d2+d3+d4
+	    Escribir "suma = ",suma
+	Sino 
+		Escribir "No es un número de cuatro dígitos"
+	Fin Si
+FinProceso			
